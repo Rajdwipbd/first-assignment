@@ -236,3 +236,12 @@ header li button {
 .button-text {
     text-align: center;
 }
+
+footer {
+    background-color: rgb(198, 228, 214);
+    border-radius: 8px;
+}
+
+.suscribe-section {
+    margin: 50px 15%;
+}
