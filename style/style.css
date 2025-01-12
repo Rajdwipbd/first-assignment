@@ -38,6 +38,10 @@ header li button {
     padding: 12px 24px;
 }
 
+button {
+    color: white;
+}
+
 .banner {
     background-color: rgb(198, 228, 214);
     border-radius: 19px;
@@ -271,7 +275,7 @@ footer {
     padding-left: 30px;
     border: none;
     display: inline;
-    border-radius:  10px 0 0 10px ;
+    border-radius: 10px 0 0 10px;
 }
 
 .button-text {
