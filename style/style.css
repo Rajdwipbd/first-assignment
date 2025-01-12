@@ -233,7 +233,7 @@ header li button {
 
 }
 
-.button-text {
+#button-text {
     text-align: center;
 }
 
@@ -244,4 +244,54 @@ footer {
 
 .suscribe-section {
     margin: 50px 15%;
+}
+
+.suscribe-section h1 {
+    padding-top: 75px;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.footer-text input {
+    padding: 10px;
+    max-width: 300px;
+    font-size: 24px;
+}
+
+.promise {
+    padding-bottom: 75px;
+}
+
+.suscribe-section input {
+    width: 70%;
+    text-align: start;
+    padding: 10px 0px;
+    padding-left: 30px;
+    border: none;
+    display: inline;
+    border-radius:  10px 0 0 10px ;
+}
+
+.button-text {
+    width: 20%;
+    text-align: start;
+    padding: 10px 0px;
+    padding-left: 30px;
+    border: none;
+    height: 45px;
+    border-radius: 0 10px 10px 0;
+
+}
+
+#footer-btn {
+    display: flex;
+    height: 45px;
+
+
+}
+
+.btn-sus {
+    background-color: green;
 }
