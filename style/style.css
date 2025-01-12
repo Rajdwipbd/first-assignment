@@ -3,6 +3,8 @@
 /* font family = Fira Sans */
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    ;
 }
 
 /* style of Common Button  */
@@ -112,6 +114,7 @@ header li button {
     border-radius: 7px;
     border: none;
     background-color: rgba(137, 43, 226, 0.76);
+    border-radius: 18px;
 }
 
 #dr-yunus {
@@ -126,4 +129,110 @@ header li button {
 
 #dr-yunus>h3 {
     font-size: 1.5em;
+    color: rgba(14, 14, 14, 0.8);
+    margin: 0 0;
+}
+
+.recent-news {
+    background-color: rgba(218, 211, 211, 0.082);
+}
+
+.first-news,
+.second-news {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+    margin: 30px;
+    border-radius: 18px;
+
+
+}
+
+.first-news img {
+    border-radius: 10px;
+
+}
+
+.second-news img {
+    border-radius: 10px;
+
+}
+
+.news-details h1 {
+    color: rgba(14, 14, 14, 0.8);
+
+}
+
+#news-sections button {
+    background-color: rgb(0, 106, 80);
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+}
+
+#donate h1 {
+    text-align: center;
+    font-size: 1.7em;
+}
+
+.donate-amounts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.donate-text {
+    text-align: center;
+}
+
+.money {
+    padding: 5px 36px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.096);
+}
+
+#money2 {
+    background-color: rgba(127, 255, 212, 0.541);
+}
+
+#money1:hover {
+    background-color: rgb(250, 226, 121);
+}
+
+#money2:hover {
+    background-color: #b6d18aa1;
+}
+
+#money3:hover {
+    background-color: lightgrey;
+}
+
+#money4:hover {
+    background-color: rgba(176, 196, 222, 0.685);
+}
+
+.input-taka {
+    margin: 0 8%;
+    border-radius: 2px;
+}
+
+.input-taka input {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+
+}
+
+.input-taka button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: rgb(0, 106, 80);
+    border: none;
+
+}
+
+.button-text {
+    text-align: center;
 }
