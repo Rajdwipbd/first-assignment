@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font family = Fira Sans */
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* style of Common Button  */
+.common-button {
+    background-color: rgb(0, 106, 80);
+    border-radius: 7px;
+    border: none;
+}
+
+body {
+    margin: 0 10%;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+header li {
+    list-style: none;
+}
+
+header li button {
+    padding: 12px 24px;
+}
+
+.banner {
+    background-color: rgb(198, 228, 214);
+    border-radius: 19px;
+    padding: 63px 78px;
+    display: flex;
+
+}
+
+#banner-written-sec h3 {
+    font-size: 44px;
+}
+
+#banner-written-sec {
+    margin-top: 4.8%;
+
+}
+
+#banner-written-sec>p {
+    color: rgba(14, 14, 14, 0.5);
+    font-weight: 500;
+}
+
+#Explore-Bd {
+    padding: 14px 27px;
+
+
+}
