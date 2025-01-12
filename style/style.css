@@ -12,6 +12,11 @@
     border: none;
 }
 
+/* common text color  */
+.common-text {
+    color: rgba(14, 14, 14, 0.8);
+}
+
 body {
     margin: 0 10%;
 }
@@ -36,8 +41,10 @@ header li button {
     border-radius: 19px;
     padding: 63px 78px;
     display: flex;
+    justify-content: space-between;
 
 }
+
 
 #banner-written-sec h3 {
     font-size: 44px;
@@ -55,6 +62,68 @@ header li button {
 
 #Explore-Bd {
     padding: 14px 27px;
+}
 
+#cards {
+    display: flex;
 
+}
+
+.card {
+    width: 33.3%;
+    margin-right: 10px;
+    border-radius: 10px;
+
+}
+
+.card-btn-common-style {
+    padding: 10px 18px;
+
+}
+
+.first-card {
+    background-color: lightcyan;
+    padding: 30px;
+}
+
+.second-card {
+    background-color: lightgrey;
+    padding: 30px;
+}
+
+.third-card {
+    background-color: lightgoldenrodyellow;
+    padding: 30px;
+}
+
+.first-card>button {
+    border-radius: 7px;
+    border: none;
+    background-color: rgba(0, 0, 255, 0.596);
+}
+
+.second-card>button {
+    border-radius: 7px;
+    border: none;
+    background-color: rgba(128, 255, 0, 0.884);
+}
+
+.third-card>button {
+    border-radius: 7px;
+    border: none;
+    background-color: rgba(137, 43, 226, 0.76);
+}
+
+#dr-yunus {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 37px 19px;
+    margin-top: 25px;
+    border-radius: 12px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 25px 25px;
+}
+
+#dr-yunus>h3 {
+    font-size: 1.5em;
 }
